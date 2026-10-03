@@ -1,8 +1,8 @@
-// Add future projects to the projects array. Each field supports Chinese and English.
+// Add future projects and conference appearances to their arrays. Text fields support Chinese and English.
 window.siteContent = {
   copy: {
-    zh: {skip:'跳至内容',navAbout:'关于',navResearch:'研究',navExperience:'经历',navProjects:'项目',heroRole:'计算数学博士 · 量化研究员',heroSummary:'从数据中发现规律，用数学理解复杂系统。我的研究与实践连接科学计算、量化金融和人工智能。',explore:'探索项目',getInTouch:'与我联系',affiliation:'量化研究 & AI',visualCaption:'从观测数据到可解释的模型',data:'数据',models:'模型',structure:'结构',visualFoot:'数学提供结构，数据带来洞察。',aboutTitle:'在数学与现实问题之间。',aboutText:'我于 2026 年从香港浸会大学博士毕业，研究方向为计算数学。现在在 AQUMON 担任量化研究员，同时从事 AI 相关研究。',aboutText2:'我的学术研究聚焦从含噪数据中识别偏微分方程，结合弱形式、稀疏优化和机器学习构建可解释的模型。在实践中，我也探索 AI 智能体、金融数据分析与量化研究工具。',researchTitle:'我关注的问题',researchIntro:'让数据、模型与领域知识相互连接。',publicationsTitle:'精选论文',publicationsNote:'弱形式 · 稀疏回归 · 科学计算',experienceTitle:'从学术到实践',experienceIntro:'跨越数学、数据科学与金融的学习和工作经历。',workTitle:'工作经历',educationTitle:'教育经历',tools:'常用工具',projectsTitle:'研究与项目',projectsIntro:'一些已经开展的探索，更多工作将在这里陆续分享。',futureTitle:'探索仍在继续',futureText:'这里会继续记录我的研究、工具与个人项目。',contactTitle:'让想法开始交流。',contactText:'欢迎交流科学计算、量化研究、AI 和有趣的项目。',footer:'数学 · 研究 · 实践',backTop:'回到顶部',paper:'阅读论文',code:'查看代码',demo:'查看演示',research:'学术研究',applied:'应用研究',description:'Cheng Tang 的个人主页。香港浸会大学计算数学博士，AQUMON 量化研究员，关注数据驱动的科学计算、量化研究与 AI。'},
-    en: {skip:'Skip to content',navAbout:'About',navResearch:'Research',navExperience:'Journey',navProjects:'Projects',heroRole:'PhD in Computational Mathematics · Quantitative Researcher',heroSummary:'Finding patterns in data and understanding complex systems through mathematics. My work connects scientific computing, quantitative finance, and artificial intelligence.',explore:'Explore my work',getInTouch:'Get in touch',affiliation:'Quantitative Research & AI',visualCaption:'From observations to interpretable models',data:'Data',models:'Models',structure:'Structure',visualFoot:'Structure through mathematics. Insight through data.',aboutTitle:'Between mathematics and real-world problems.',aboutText:'I completed my PhD at Hong Kong Baptist University in 2026, with a focus on computational mathematics. I am now a Quantitative Researcher at AQUMON, where I also work on AI research.',aboutText2:'My academic research focuses on identifying partial differential equations from noisy data, combining weak formulations, sparse optimization, and machine learning to build interpretable models. In practice, I also explore AI agents, financial data analysis, and tools for quantitative research.',researchTitle:'Questions I explore',researchIntro:'Connecting data, mathematical models, and domain knowledge.',publicationsTitle:'Selected publications',publicationsNote:'Weak formulations · Sparse regression · Scientific computing',experienceTitle:'From research to practice',experienceIntro:'A journey through mathematics, data science, and finance.',workTitle:'Experience',educationTitle:'Education',tools:'Tools I work with',projectsTitle:'Research & projects',projectsIntro:'Selected explorations so far. More work will be shared here over time.',futureTitle:'The exploration continues',futureText:'A growing collection of research, tools, and personal projects.',contactTitle:'Let’s exchange ideas.',contactText:'Open to conversations about scientific computing, quantitative research, AI, and interesting projects.',footer:'Mathematics · Research · Practice',backTop:'Back to top',paper:'Read paper',code:'View code',demo:'View demo',research:'RESEARCH',applied:'APPLIED RESEARCH',description:'Cheng Tang — PhD in computational mathematics from Hong Kong Baptist University and Quantitative Researcher at AQUMON. Scientific computing, quantitative research, and AI.'}
+    zh: {skip:'跳至内容',navAbout:'关于',navResearch:'研究',navConferences:'交流',navExperience:'经历',navProjects:'项目',heroRole:'计算数学博士 · 量化研究员',heroSummary:'从数据中发现规律，用数学理解复杂系统。我的研究与实践连接科学计算、量化金融和人工智能。',explore:'探索项目',getInTouch:'与我联系',affiliation:'量化研究 & AI',visualCaption:'从观测数据到可解释的模型',data:'数据',models:'模型',structure:'结构',visualFoot:'数学提供结构，数据带来洞察。',aboutTitle:'在数学与现实问题之间。',aboutText:'我于 2026 年从香港浸会大学博士毕业，研究方向为计算数学。现在在 AQUMON 担任量化研究员，同时从事 AI 相关研究。',aboutText2:'我的学术研究聚焦从含噪数据中识别偏微分方程，结合弱形式、稀疏优化和机器学习构建可解释的模型。在实践中，我也探索 AI 智能体、金融数据分析与量化研究工具。',researchTitle:'我关注的问题',researchIntro:'让数据、模型与领域知识相互连接。',publicationsTitle:'精选论文',publicationsNote:'弱形式 · 稀疏回归 · 科学计算',conferencesTitle:'会议与学术交流',conferencesIntro:'学术报告，以及作为香港浸会大学学生代表参与的交流活动。',presentationTopic:'报告题目',experienceTitle:'从学术到实践',experienceIntro:'跨越数学、数据科学与金融的学习和工作经历。',workTitle:'工作经历',educationTitle:'教育经历',tools:'常用工具',projectsTitle:'研究与项目',projectsIntro:'一些已经开展的探索，更多工作将在这里陆续分享。',futureTitle:'探索仍在继续',futureText:'这里会继续记录我的研究、工具与个人项目。',contactTitle:'让想法开始交流。',contactText:'欢迎交流科学计算、量化研究、AI 和有趣的项目。',footer:'数学 · 研究 · 实践',backTop:'回到顶部',paper:'阅读论文',code:'查看代码',demo:'查看演示',research:'学术研究',applied:'应用研究',description:'Cheng Tang 的个人主页。香港浸会大学计算数学博士，AQUMON 量化研究员，关注数据驱动的科学计算、量化研究与 AI。'},
+    en: {skip:'Skip to content',navAbout:'About',navResearch:'Research',navConferences:'Talks',navExperience:'Journey',navProjects:'Projects',heroRole:'PhD in Computational Mathematics · Quantitative Researcher',heroSummary:'Finding patterns in data and understanding complex systems through mathematics. My work connects scientific computing, quantitative finance, and artificial intelligence.',explore:'Explore my work',getInTouch:'Get in touch',affiliation:'Quantitative Research & AI',visualCaption:'From observations to interpretable models',data:'Data',models:'Models',structure:'Structure',visualFoot:'Structure through mathematics. Insight through data.',aboutTitle:'Between mathematics and real-world problems.',aboutText:'I completed my PhD at Hong Kong Baptist University in 2026, with a focus on computational mathematics. I am now a Quantitative Researcher at AQUMON, where I also work on AI research.',aboutText2:'My academic research focuses on identifying partial differential equations from noisy data, combining weak formulations, sparse optimization, and machine learning to build interpretable models. In practice, I also explore AI agents, financial data analysis, and tools for quantitative research.',researchTitle:'Questions I explore',researchIntro:'Connecting data, mathematical models, and domain knowledge.',publicationsTitle:'Selected publications',publicationsNote:'Weak formulations · Sparse regression · Scientific computing',conferencesTitle:'Talks & conferences',conferencesIntro:'Research presentations and academic exchanges as a student representative of Hong Kong Baptist University.',presentationTopic:'Presentation',experienceTitle:'From research to practice',experienceIntro:'A journey through mathematics, data science, and finance.',workTitle:'Experience',educationTitle:'Education',tools:'Tools I work with',projectsTitle:'Research & projects',projectsIntro:'Selected explorations so far. More work will be shared here over time.',futureTitle:'The exploration continues',futureText:'A growing collection of research, tools, and personal projects.',contactTitle:'Let’s exchange ideas.',contactText:'Open to conversations about scientific computing, quantitative research, AI, and interesting projects.',footer:'Mathematics · Research · Practice',backTop:'Back to top',paper:'Read paper',code:'View code',demo:'View demo',research:'RESEARCH',applied:'APPLIED RESEARCH',description:'Cheng Tang — PhD in computational mathematics from Hong Kong Baptist University and Quantitative Researcher at AQUMON. Scientific computing, quantitative research, and AI.'}
   },
   research: [
     {title:{zh:'数据驱动的科学计算',en:'Data-driven scientific computing'},text:{zh:'从含噪的时空观测中发现控制方程，研究弱形式方法、变系数 PDE 识别与稀疏模型选择。',en:'Discovering governing equations from noisy spatiotemporal observations using weak formulations, variable-coefficient PDE identification, and sparse model selection.'},tag:'PDE IDENTIFICATION / SPARSE OPTIMIZATION'},
@@ -12,6 +12,138 @@ window.siteContent = {
   publications: [
     {year:'2026',title:'WG-IDENT: Weak Group Identification of PDEs with Varying Coefficients',authors:'Cheng Tang, Roy Y. He, Hao Liu',venue:{zh:'Journal of Computational Physics · 已发表',en:'Journal of Computational Physics · Published'},url:'https://www.sciencedirect.com/science/article/pii/S0021999125007363'},
     {year:'2026',title:'PriorIDENT: Prior-Informed PDE Identification from Noisy Data',authors:'Cheng Tang, Hao Liu, Dong Wang',venue:{zh:'arXiv:2603.05946 · 预印本',en:'arXiv:2603.05946 · Preprint'},url:'https://arxiv.org/abs/2603.05946'}
+  ],
+  conferences: [
+    {
+      "dateISO": "2026-01",
+      "date": {
+        "zh": "2026 年 1 月",
+        "en": "Jan 2026"
+      },
+      "name": {
+        "zh": "现代核方法与应用会议",
+        "en": "Conference on Modern Kernel Methods and Applications"
+      },
+      "venue": {
+        "zh": "香港浸会大学 · 香港",
+        "en": "Hong Kong Baptist University · Hong Kong"
+      },
+      "role": {
+        "zh": "学术报告",
+        "en": "Research presentation"
+      },
+      "topic": {
+        "zh": "融合先验知识的弱形式 PDE 识别",
+        "en": "Prior-Informed Weak-Form PDE Identification"
+      }
+    },
+    {
+      "dateISO": "2025-12",
+      "date": {
+        "zh": "2025 年 12 月",
+        "en": "Dec 2025"
+      },
+      "name": {
+        "zh": "SHUA 青年学者研讨会",
+        "en": "SHUA Young Scholars Workshop"
+      },
+      "venue": {
+        "zh": "香港大学 · 香港",
+        "en": "The University of Hong Kong · Hong Kong"
+      },
+      "role": {
+        "zh": "香港浸会大学学生代表",
+        "en": "HKBU student representative"
+      }
+    },
+    {
+      "dateISO": "2025-08",
+      "date": {
+        "zh": "2025 年 8 月",
+        "en": "Aug 2025"
+      },
+      "name": {
+        "zh": "中国数学会第十四届计算数学年会",
+        "en": "The 14th Annual Conference on Computational Mathematics of the Chinese Mathematical Society"
+      },
+      "venue": {
+        "zh": "中南大学 · 长沙",
+        "en": "Central South University · Changsha"
+      },
+      "role": {
+        "zh": "学术报告",
+        "en": "Research presentation"
+      },
+      "topic": {
+        "zh": "WG-IDENT：变系数 PDE 的弱形式组识别",
+        "en": "WG-IDENT: Weak Group Identification of PDEs with Varying Coefficients"
+      }
+    },
+    {
+      "dateISO": "2025-07",
+      "date": {
+        "zh": "2025 年 7 月",
+        "en": "Jul 2025"
+      },
+      "name": {
+        "zh": "第三届 HKSIAM 双年会议",
+        "en": "The Third HKSIAM Biennial Conference"
+      },
+      "venue": {
+        "zh": "香港中文大学 · 香港",
+        "en": "The Chinese University of Hong Kong · Hong Kong"
+      },
+      "role": {
+        "zh": "学术报告",
+        "en": "Research presentation"
+      },
+      "topic": {
+        "zh": "WG-IDENT：变系数 PDE 的弱形式组识别",
+        "en": "WG-IDENT: Weak Group Identification of PDEs with Varying Coefficients"
+      }
+    },
+    {
+      "dateISO": "2025-06",
+      "date": {
+        "zh": "2025 年 6 月",
+        "en": "Jun 2025"
+      },
+      "name": {
+        "zh": "SHUA 青年学者研讨会",
+        "en": "SHUA Young Scholars Workshop"
+      },
+      "venue": {
+        "zh": "复旦大学 · 上海",
+        "en": "Fudan University · Shanghai"
+      },
+      "role": {
+        "zh": "香港浸会大学学生代表",
+        "en": "HKBU student representative"
+      }
+    },
+    {
+      "dateISO": "2024-04",
+      "date": {
+        "zh": "2024 年 4 月",
+        "en": "Apr 2024"
+      },
+      "name": {
+        "zh": "2024 全国优秀研究生研讨会",
+        "en": "2024 National Outstanding Graduate Students Workshop"
+      },
+      "venue": {
+        "zh": "香港中文大学（深圳）· 深圳",
+        "en": "The Chinese University of Hong Kong, Shenzhen · Shenzhen"
+      },
+      "role": {
+        "zh": "学术报告",
+        "en": "Research presentation"
+      },
+      "topic": {
+        "zh": "变系数 PDE 的弱形式识别",
+        "en": "Weak-form PDE Identification with Varying Coefficient"
+      }
+    }
   ],
   work: [
     {date:{zh:'目前',en:'Current'},name:'AQUMON',role:{zh:'量化研究员',en:'Quantitative Researcher'},detail:{zh:'从事量化研究与 AI 相关研究工作。',en:'Working on quantitative research and AI-related research.'}},
