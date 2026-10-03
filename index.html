@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173ee5">
+  <meta name="description" content="Cheng Tang 的个人主页。香港浸会大学计算数学博士，AQUMON 量化研究员，关注数据驱动的科学计算、量化研究与 AI。">
+  <title>Cheng Tang · Quantitative Research & AI</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23173ee5'/%3E%3Cpath d='M22 9H13a7 7 0 000 14h9M17 9v14' fill='none' stroke='white' stroke-width='2.5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main" data-copy="skip">跳至内容</a>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="Cheng Tang home"><span class="monogram">CT.</span><span>Cheng Tang</span></a>
+    <nav aria-label="主导航" id="navigation">
+      <a href="#about" data-copy="navAbout">关于</a><a href="#research" data-copy="navResearch">研究</a><a href="#experience" data-copy="navExperience">经历</a><a href="#projects" data-copy="navProjects">项目</a>
+    </nav>
+    <div class="language" role="group" aria-label="Language / 语言"><button type="button" data-lang="zh" aria-pressed="true">中文</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">MATHEMATICS / QUANT / AI</p>
+        <h1>Cheng Tang<span class="name-note">James Tang</span></h1>
+        <p class="hero-role" data-copy="heroRole">计算数学博士 · 量化研究员</p>
+        <p class="hero-summary" data-copy="heroSummary">从数据中发现规律，用数学理解复杂系统。我的研究与实践连接科学计算、量化金融和人工智能。</p>
+        <div class="hero-actions"><a class="button" href="#projects" data-copy="explore">探索项目</a><a class="text-link" href="mailto:22481184@life.hkbu.edu.hk" data-copy="getInTouch">与我联系</a></div>
+        <div class="affiliation"><span>AQUMON</span><span class="divider"></span><span data-copy="affiliation">量化研究 & AI</span></div>
+      </div>
+      <div class="research-visual" aria-label="研究方法示意：从数据，通过模型，发现结构">
+        <div class="visual-top"><span>RESEARCH PERSPECTIVE</span><span>PDE</span></div>
+        <div class="equation" aria-label="Partial u over partial t equals L theta of u"><span class="fraction"><span>∂u</span><span>∂t</span></span><span>=</span><span>ℒ<sub>θ</sub>[u]</span></div>
+        <div class="visual-caption" data-copy="visualCaption">从观测数据到可解释的模型</div>
+        <svg class="signal" viewBox="0 0 440 160" role="img" aria-labelledby="signalTitle"><title id="signalTitle">Illustrative signal and model, not experimental results</title><path class="grid" d="M0 40H440 M0 80H440 M0 120H440 M55 0V160 M110 0V160 M165 0V160 M220 0V160 M275 0V160 M330 0V160 M385 0V160"/><path class="noisy" d="M0 114 10 94 20 122 30 69 40 82 50 44 60 67 70 32 80 55 90 20 100 46 110 19 120 41 130 21 140 65 150 47 160 80 170 61 180 118 190 94 200 138 210 117 220 136 230 112 240 149 250 111 260 132 270 94 280 110 290 67 300 91 310 45 320 62 330 27 340 44 350 21 360 43 370 28 380 47 390 23 400 76 410 54 420 89 430 78 440 112"/><path class="smooth" d="M0 105 C36 65 63 27 103 32 S165 82 202 119 S269 116 303 69 S368 13 403 54 S430 94 440 103"/></svg>
+        <div class="visual-flow"><span data-copy="data">数据</span><i></i><span data-copy="models">模型</span><i></i><span data-copy="structure">结构</span></div>
+        <p class="visual-foot" data-copy="visualFoot">数学提供结构，数据带来洞察。</p>
+      </div>
+    </section>
+    <section class="about-section" id="about"><div class="wrap about-grid"><div><p class="section-label">01 / ABOUT</p><h2 data-copy="aboutTitle">在数学与现实问题之间。</h2></div><div class="about-copy"><p data-copy="aboutText">我于 2026 年从香港浸会大学博士毕业，研究方向为计算数学。现在在 AQUMON 担任量化研究员，同时从事 AI 相关研究。</p><p data-copy="aboutText2">我的学术研究聚焦从含噪数据中识别偏微分方程，结合弱形式、稀疏优化和机器学习构建可解释的模型。在实践中，我也探索 AI 智能体、金融数据分析与量化研究工具。</p><div class="about-links"><a href="https://github.com/ChengTang1205" target="_blank" rel="noopener noreferrer">GitHub</a><a href="mailto:22481184@life.hkbu.edu.hk">Email</a></div></div></div></section>
+    <section class="wrap section" id="research"><div class="section-heading"><div><p class="section-label">02 / RESEARCH</p><h2 data-copy="researchTitle">我关注的问题</h2></div><p class="section-intro" data-copy="researchIntro">让数据、模型与领域知识相互连接。</p></div><div class="research-grid" id="researchCards"></div><div class="publications"><div class="publication-heading"><h3 data-copy="publicationsTitle">精选论文</h3><span data-copy="publicationsNote">弱形式 · 稀疏回归 · 科学计算</span></div><div id="publicationList"></div></div></section>
+    <section class="experience-section" id="experience"><div class="wrap section"><div class="section-heading"><div><p class="section-label">03 / JOURNEY</p><h2 data-copy="experienceTitle">从学术到实践</h2></div><p class="section-intro" data-copy="experienceIntro">跨越数学、数据科学与金融的学习和工作经历。</p></div><div class="journey-grid"><div><h3 class="column-title" data-copy="workTitle">工作经历</h3><div class="timeline" id="workList"></div></div><div><h3 class="column-title" data-copy="educationTitle">教育经历</h3><div class="timeline" id="educationList"></div></div></div><div class="skills-bar"><span data-copy="tools">常用工具</span><div>Python · MATLAB · PyTorch · SQL · C++ · LangChain</div></div></div></section>
+    <section class="wrap section" id="projects"><div class="section-heading"><div><p class="section-label">04 / SELECTED WORK</p><h2 data-copy="projectsTitle">研究与项目</h2></div><p class="section-intro" data-copy="projectsIntro">一些已经开展的探索，更多工作将在这里陆续分享。</p></div><div class="project-grid" id="projectList"></div><div class="future-project"><span class="plus" aria-hidden="true">+</span><div><h3 data-copy="futureTitle">探索仍在继续</h3><p data-copy="futureText">这里会继续记录我的研究、工具与个人项目。</p></div><span class="future-number">NEXT CHAPTER</span></div></section>
+    <section class="contact-section" id="contact"><div class="wrap contact-grid"><div><p class="section-label">05 / CONTACT</p><h2 data-copy="contactTitle">让想法开始交流。</h2><p data-copy="contactText">欢迎交流科学计算、量化研究、AI 和有趣的项目。</p></div><div class="contact-links"><a href="mailto:22481184@life.hkbu.edu.hk">22481184@life.hkbu.edu.hk</a><a href="https://github.com/ChengTang1205" target="_blank" rel="noopener noreferrer">github.com/ChengTang1205</a></div></div></section>
+  </main>
+  <footer class="wrap footer"><span>© <span id="year">2026</span> Cheng Tang</span><span data-copy="footer">数学 · 研究 · 实践</span><a href="#home" data-copy="backTop">回到顶部</a></footer>
+  <noscript><p class="wrap">请启用 JavaScript 以查看完整的中英双语内容。Enable JavaScript to view all research, experience, and projects.</p></noscript>
+</body>
+</html>
