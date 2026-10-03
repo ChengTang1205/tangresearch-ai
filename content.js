@@ -496,7 +496,7 @@ window.siteContent = {
           }
         },
         {
-          "src": "assets/wg-ident-coefficients.webp",
+          "src": "assets/wg-ident-coefficients.webp?v=2",
           "width": 1600,
           "height": 1050,
           "title": {
