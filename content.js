@@ -164,6 +164,26 @@ window.siteContent = {
   ],
   "conferences": [
     {
+      "dateISO": "2026-06-29",
+      "endDateISO": "2026-07-03",
+      "date": {
+        "zh": "2026 年 6 月 29 日–7 月 3 日",
+        "en": "29 June–3 July 2026"
+      },
+      "name": {
+        "zh": "SciCADE 2026：科学计算与微分方程国际会议",
+        "en": "SciCADE 2026: Scientific Computing and Differential Equations"
+      },
+      "venue": {
+        "zh": "爱丁堡大学 George Square 校区 · 英国爱丁堡",
+        "en": "University of Edinburgh, George Square campus · Edinburgh, UK"
+      },
+      "role": {
+        "zh": "受邀报告",
+        "en": "Invited presentation"
+      }
+    },
+    {
       "dateISO": "2026-01",
       "date": {
         "zh": "2026 年 1 月",
