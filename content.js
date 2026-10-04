@@ -53,7 +53,9 @@ window.siteContent = {
       "selectImage": "查看第 {n} 张图片",
       "portraitCaption": "研究与交流",
       "portraitAlt": "Cheng Tang 手持麦克风作学术报告的近景照片。",
-      "viewConferencePhoto": "查看完整会议照片"
+      "viewConferencePhoto": "查看完整会议照片",
+      "conferencePhotosTitle": "学术交流照片",
+      "conferencePhotosNote": "报告、会议与交流中的一些片段。"
     },
     "en": {
       "skip": "Skip to content",
@@ -108,7 +110,9 @@ window.siteContent = {
       "selectImage": "View image {n}",
       "portraitCaption": "Research & conversation",
       "portraitAlt": "Close-up of Cheng Tang giving a research presentation with a microphone.",
-      "viewConferencePhoto": "View full conference photo"
+      "viewConferencePhoto": "View full conference photo",
+      "conferencePhotosTitle": "Academic moments",
+      "conferencePhotosNote": "Moments from presentations, conferences, and academic exchanges."
     }
   },
   "research": [
@@ -187,19 +191,6 @@ window.siteContent = {
       "role": {
         "zh": "受邀报告",
         "en": "Invited presentation"
-      },
-      "photo": {
-        "src": "assets/photos/scicade-2026-wg-ident.webp",
-        "width": 2000,
-        "height": 1500,
-        "alt": {
-          "zh": "Cheng Tang 在 SciCADE 2026 会议上作 WG-IDENT 学术报告，身旁屏幕展示 PDE 识别的研究背景。",
-          "en": "Cheng Tang presenting WG-IDENT at SciCADE 2026, beside a screen introducing PDE identification."
-        },
-        "caption": {
-          "zh": "SciCADE 2026 · WG-IDENT 学术报告现场",
-          "en": "Presenting WG-IDENT at SciCADE 2026."
-        }
       }
     },
     {
@@ -863,6 +854,73 @@ window.siteContent = {
           }
         }
       ]
+    }
+  ],
+  "conferencePhotos": [
+    {
+      "src": "assets/photos/hkbu-phd-presentation-2026.webp",
+      "width": 1600,
+      "height": 1200,
+      "caption": {
+        "zh": "博士论文口头报告 · 香港浸会大学，2026",
+        "en": "PhD thesis oral presentation · HKBU, 2026"
+      },
+      "alt": {
+        "zh": "博士论文口头报告后的合影，身旁投影展示 Cheng Tang 的论文题目与香港浸会大学信息。",
+        "en": "Group photograph following the PhD thesis oral presentation, beside a projected slide showing Cheng Tang’s thesis title and Hong Kong Baptist University."
+      }
+    },
+    {
+      "src": "assets/photos/scicade-2026-wg-ident.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": {
+        "zh": "Cheng Tang 在 SciCADE 2026 会议上作 WG-IDENT 学术报告，身旁屏幕展示 PDE 识别的研究背景。",
+        "en": "Cheng Tang presenting WG-IDENT at SciCADE 2026, beside a screen introducing PDE identification."
+      },
+      "caption": {
+        "zh": "SciCADE 2026 · WG-IDENT 学术报告现场",
+        "en": "Presenting WG-IDENT at SciCADE 2026."
+      }
+    },
+    {
+      "src": "assets/photos/edinburgh-academic-exchange.webp",
+      "width": 1350,
+      "height": 1800,
+      "caption": {
+        "zh": "学术交流合影 · 爱丁堡大学",
+        "en": "Academic exchange · University of Edinburgh"
+      },
+      "alt": {
+        "zh": "爱丁堡大学 Informatics Forum 门前的学术交流合影。",
+        "en": "Academic exchange group photograph outside the Informatics Forum at the University of Edinburgh."
+      }
+    },
+    {
+      "src": "assets/photos/computational-mathematics-2025.webp",
+      "width": 1600,
+      "height": 1200,
+      "caption": {
+        "zh": "第十四届计算数学年会 · 长沙，2025",
+        "en": "14th Annual Conference on Computational Mathematics · Changsha, 2025"
+      },
+      "alt": {
+        "zh": "两位参会者在第十四届中国数学会计算数学年会的长沙会场背景板前合影。",
+        "en": "Two conference attendees in front of the backdrop for the 14th Annual Conference on Computational Mathematics in Changsha."
+      }
+    },
+    {
+      "src": "assets/photos/graduate-workshop-2024.webp",
+      "width": 1284,
+      "height": 826,
+      "caption": {
+        "zh": "全国优秀研究生研讨会 · 2024",
+        "en": "National Outstanding Graduate Students Workshop · 2024"
+      },
+      "alt": {
+        "zh": "2024 全国优秀研究生研讨会的报告现场，报告者手持麦克风与演示器。",
+        "en": "A presentation at the 2024 National Outstanding Graduate Students Workshop, with the presenter holding a microphone and a presentation remote."
+      }
     }
   ]
 };

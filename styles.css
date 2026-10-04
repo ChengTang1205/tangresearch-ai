@@ -24,8 +24,16 @@
 .portrait-frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:43% center}
 .hero-portrait figcaption{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:15px 0;border-bottom:1px solid var(--line);font-size:12px;letter-spacing:.5px;color:var(--muted)}
 .portrait-name{font-weight:500;color:var(--ink)}
-.conference-photo{margin:24px 0 0;max-width:900px}
-.conference-photo>a{display:block;aspect-ratio:16/9;overflow:hidden;border:1px solid var(--line);background:var(--light)}
-.conference-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 80%}
-.conference-photo figcaption{font-size:13px;line-height:1.8;color:var(--muted);margin-top:10px}
-@media(max-width:760px){.hero-portrait{max-width:360px;justify-self:start}.conference-photo>a{aspect-ratio:4/3}.conference-photo{margin-top:20px}}
+@media(max-width:760px){.hero-portrait{max-width:360px;justify-self:start}}
+/* Shared gallery for all academic photos; contain preserves people and signage. */
+.conference-gallery{margin-top:56px;scroll-margin-top:120px}
+.conference-gallery-heading{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin-bottom:24px}
+.conference-gallery-heading h3{font-size:22px;font-weight:500;line-height:1.5;margin:0}
+.conference-gallery-heading p{font-size:14px;line-height:1.8;color:var(--muted);margin:0}
+.conference-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 24px}
+.conference-gallery-item{margin:0;min-width:0}
+.conference-gallery-item>a{display:block;aspect-ratio:4/3;background:var(--light);border:1px solid var(--line);overflow:hidden}
+.conference-gallery-item img{display:block;width:100%;height:100%;object-fit:contain}
+.conference-gallery-item figcaption{font-size:13px;line-height:1.8;color:var(--muted);margin-top:12px;overflow-wrap:break-word}
+@media(max-width:1000px){.conference-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.conference-gallery{margin-top:40px}.conference-gallery-heading{display:block}.conference-gallery-heading p{margin-top:8px}.conference-photo-grid{grid-template-columns:1fr;gap:24px}}
