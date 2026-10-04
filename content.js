@@ -50,7 +50,10 @@ window.siteContent = {
       "gallery": "项目图片",
       "previousImage": "上一张",
       "nextImage": "下一张",
-      "selectImage": "查看第 {n} 张图片"
+      "selectImage": "查看第 {n} 张图片",
+      "portraitCaption": "研究与交流",
+      "portraitAlt": "Cheng Tang 手持麦克风作学术报告的近景照片。",
+      "viewConferencePhoto": "查看完整会议照片"
     },
     "en": {
       "skip": "Skip to content",
@@ -102,7 +105,10 @@ window.siteContent = {
       "gallery": "Project gallery",
       "previousImage": "Previous",
       "nextImage": "Next",
-      "selectImage": "View image {n}"
+      "selectImage": "View image {n}",
+      "portraitCaption": "Research & conversation",
+      "portraitAlt": "Close-up of Cheng Tang giving a research presentation with a microphone.",
+      "viewConferencePhoto": "View full conference photo"
     }
   },
   "research": [
@@ -181,6 +187,19 @@ window.siteContent = {
       "role": {
         "zh": "受邀报告",
         "en": "Invited presentation"
+      },
+      "photo": {
+        "src": "assets/photos/scicade-2026-wg-ident.webp",
+        "width": 2000,
+        "height": 1500,
+        "alt": {
+          "zh": "Cheng Tang 在 SciCADE 2026 会议上作 WG-IDENT 学术报告，身旁屏幕展示 PDE 识别的研究背景。",
+          "en": "Cheng Tang presenting WG-IDENT at SciCADE 2026, beside a screen introducing PDE identification."
+        },
+        "caption": {
+          "zh": "SciCADE 2026 · WG-IDENT 学术报告现场",
+          "en": "Presenting WG-IDENT at SciCADE 2026."
+        }
       }
     },
     {

@@ -33,3 +33,7 @@ Crypto Alpha Terminal 使用实际项目界面的宏观资金、风险监控与�
 ## 工作与教育标志
 
 `assets/logos/` 保存公司与学校的官方 logo，出处见该目录的 `SOURCES.md`。工作和教育条目的 `logo` 字段包含图片路径及原始比例；可选 `theme` 用于白色标志的深色背景。更新经历时可沿用这一格式。
+
+## 报告照片
+
+`assets/photos/` 保存 Cheng Tang 提供的两张真实报告照片：`cheng-tang-presentation.webp` 用于首页人物照片，`scicade-2026-wg-ident.webp` 用于 SciCADE 2026 会议记录。网页通过 CSS 调整裁切，素材只做等比例缩放和 WebP 压缩，没有生成或重绘人物、背景。首页替代文字和说明在 `copy` 中维护，会议照片在对应 `conferences` 条目的 `photo` 中维护。

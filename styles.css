@@ -17,3 +17,15 @@
 .organization-logo--verified{background:#111827;border-color:#111827}
 .organization-logo--duke{background:#012169;border-color:#012169}
 @media(max-width:600px){.timeline-organization{gap:12px}.organization-logo{width:100px;height:60px;flex-basis:100px;padding:8px}}
+
+/* Real presentation photography: original artwork, cropped only by the layout. */
+.hero-portrait{width:100%;max-width:390px;margin:0;justify-self:center;min-width:0}
+.portrait-frame{aspect-ratio:4/5;overflow:hidden;background:var(--light);border:1px solid var(--line)}
+.portrait-frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:43% center}
+.hero-portrait figcaption{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:15px 0;border-bottom:1px solid var(--line);font-size:12px;letter-spacing:.5px;color:var(--muted)}
+.portrait-name{font-weight:500;color:var(--ink)}
+.conference-photo{margin:24px 0 0;max-width:900px}
+.conference-photo>a{display:block;aspect-ratio:16/9;overflow:hidden;border:1px solid var(--line);background:var(--light)}
+.conference-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 80%}
+.conference-photo figcaption{font-size:13px;line-height:1.8;color:var(--muted);margin-top:10px}
+@media(max-width:760px){.hero-portrait{max-width:360px;justify-self:start}.conference-photo>a{aspect-ratio:4/3}.conference-photo{margin-top:20px}}
