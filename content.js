@@ -328,6 +328,11 @@ window.siteContent = {
       "detail": {
         "zh": "从事量化研究与 AI 相关研究工作。",
         "en": "Working on quantitative research and AI-related research."
+      },
+      "logo": {
+        "src": "assets/logos/aqumon.webp",
+        "width": 360,
+        "height": 150
       }
     },
     {
@@ -343,6 +348,11 @@ window.siteContent = {
       "detail": {
         "zh": "开发 Crypto Alpha Terminal，探索 AI 智能体、情绪分析与链上风险建模。",
         "en": "Developed Crypto Alpha Terminal, exploring AI agents, sentiment analysis, and on-chain risk models."
+      },
+      "logo": {
+        "src": "assets/logos/aqumon.webp",
+        "width": 360,
+        "height": 150
       }
     },
     {
@@ -358,6 +368,12 @@ window.siteContent = {
       "detail": {
         "zh": "构建金融文档 RAG 工作流，参与 AI 估值助手的开发。",
         "en": "Built RAG workflows for financial documents and contributed to an AI valuation assistant."
+      },
+      "logo": {
+        "src": "assets/logos/verified-metrics.svg",
+        "width": 77,
+        "height": 46,
+        "theme": "verified"
       }
     },
     {
@@ -376,6 +392,11 @@ window.siteContent = {
       "detail": {
         "zh": "开发量化分析平台，开展市场数据分析与研究报告工作。",
         "en": "Developed a quantitative analytics platform and worked on market analysis and research reporting."
+      },
+      "logo": {
+        "src": "assets/logos/huaan.webp",
+        "width": 250,
+        "height": 49
       }
     }
   ],
@@ -393,6 +414,11 @@ window.siteContent = {
       "detail": {
         "zh": "聚焦 PDE 识别、数据驱动问题与机器学习；担任研究生代表及数学课程助教。",
         "en": "Focused on PDE identification, data-driven problems, and machine learning; served as a research postgraduate representative and mathematics teaching assistant."
+      },
+      "logo": {
+        "src": "assets/logos/hkbu.svg",
+        "width": 122,
+        "height": 137
       }
     },
     {
@@ -411,6 +437,11 @@ window.siteContent = {
       "detail": {
         "zh": "与 Sung Ha Kang 和 Wenjing Liao 教授开展神经网络与 PDE 识别研究。",
         "en": "Worked with Professors Sung Ha Kang and Wenjing Liao on neural networks and PDE identification."
+      },
+      "logo": {
+        "src": "assets/logos/georgia-tech.webp",
+        "width": 360,
+        "height": 128
       }
     },
     {
@@ -426,6 +457,12 @@ window.siteContent = {
       "detail": {
         "zh": "数据科学、决策建模、数据可视化与衍生品。",
         "en": "Data science, decision modeling, data visualization, and derivatives."
+      },
+      "logo": {
+        "src": "assets/logos/duke.svg",
+        "width": 101,
+        "height": 34,
+        "theme": "duke"
       }
     },
     {
@@ -441,6 +478,11 @@ window.siteContent = {
       "detail": {
         "zh": "数值分析、实分析、高等线性代数与物理。",
         "en": "Numerical analysis, real analysis, advanced linear algebra, and physics."
+      },
+      "logo": {
+        "src": "assets/logos/ucsb.webp",
+        "width": 360,
+        "height": 27
       }
     }
   ],
