@@ -9,3 +9,4 @@ Official public organization assets, retrieved 2026-10-04. SVG originals are pre
 - `georgia-tech.webp` — Georgia Institute of Technology: [official page](https://brand.gatech.edu/our-look/logos); [original asset](https://brand.gatech.edu/sites/default/files/inline-images/GeorgiaTech_RGB_1.png).
 - `duke.svg` — Duke University: [official page](https://www.duke.edu/); [original asset](https://www.duke.edu/wp-content/plugins/duke-blocks/assets/images/duke-wordmark-white.svg).
 - `ucsb.webp` — University of California, Santa Barbara: [official page](https://news.ucsb.edu/media); [original asset](https://news.ucsb.edu/sites/default/files/images/Basic%20pages/For%20Media/UCSB_Wordmark_Navy_RGB.png).
+- `china-merchants-bank.webp` — China Merchants Bank: [official page](https://www.cmbchina.com/); [original asset](https://wwwcdn.cmbimg.cn/Images/logo.png). Official PNG is losslessly encoded as WebP.

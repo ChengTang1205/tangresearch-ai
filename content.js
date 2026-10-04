@@ -408,6 +408,29 @@ window.siteContent = {
         "width": 250,
         "height": 49
       }
+    },
+    {
+      "date": {
+        "zh": "2020.06 — 2020.08",
+        "en": "Jun — Aug 2020"
+      },
+      "name": {
+        "zh": "招商银行",
+        "en": "China Merchants Bank"
+      },
+      "role": {
+        "zh": "公司金融业务部实习生 · 深圳，中国",
+        "en": "Intern · Corporate Finance Business Department · Shenzhen, China"
+      },
+      "detail": {
+        "zh": "与战略管理团队比较 KPI 与 OKR 体系，识别“铁三角”策略中的 3 项关键运营薄弱环节；建议获管理层采纳，预计使运营效率提升 20%。推动与 2 家通信行业上市公司合作，支持总额逾人民币 500 万元的项目。向 50 余位高管汇报 5G 银企融合研究成果，并获“优秀实习生”奖。",
+        "en": "Compared KPI and OKR systems with the strategic management team and identified three critical operational weaknesses in the “Iron Triangle” strategy. Recommendations adopted by management were estimated to improve operational efficiency by 20%. Facilitated collaboration with two listed communications companies, supporting projects worth over RMB 5 million. Presented findings on 5G bank-enterprise integration to over 50 executives and received the “Outstanding Intern” award."
+      },
+      "logo": {
+        "src": "assets/logos/china-merchants-bank.webp",
+        "width": 132,
+        "height": 146
+      }
     }
   ],
   "education": [
