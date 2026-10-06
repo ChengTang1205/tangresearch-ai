@@ -37,3 +37,12 @@ Crypto Alpha Terminal 使用实际项目界面的宏观资金、风险监控与�
 ## 报告照片
 
 `assets/photos/` 保存 Cheng Tang 提供的真实报告和交流照片。`cheng-tang-presentation.webp` 用于首页人物照片；其余五张照片统一显示在“会议与学术交流”栏目下方的照片区，在 `content.js` 的 `conferencePhotos` 数组中维护路径、尺寸、中英文替代文字和图注。会议记录本身不插入照片。照片区保留完整画面，点击可在新标签页查看大图。素材只做自动方向校正、等比例缩放与 WebP 压缩，没有生成或重绘人物、背景。
+
+
+## 访问地图
+
+页脚上方的 MapMyVisitors 地图显示累计 Pageviews，点击地图或“查看详细统计”可打开 https://mapmyvisitors.com/web/1c8od 。此统计项目仅对应 https://chengtang1205.github.io/tangresearch-ai/ ，访问数据从 2026-10-06 接入后开始累积，不能还原此前访问。
+
+使用服务生成的 480×247 图片代码，以避免引入外部 JavaScript；图片请求用于计数，因此保留 `loading="eager"`，不要改成延迟加载。图像按容器宽度等比例显示，服务不可用时显示提示并保留统计链接。地图图片由服务实时提供，不是保存在仓库中的静态图片。地图参数 `d` 是公开嵌入标识，仓库不包含账户凭证。
+
+公开统计页中的“Visitors' IP addresses → Show to all”和“Referrer Information → Show to all”保持关闭。服务仍会处理访客 IP、浏览器和访问相关信息；网站底部链接至其隐私政策。账户所有者可登录 MapMyVisitors 的 My Websites → Settings 管理统计项目。

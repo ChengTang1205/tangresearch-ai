@@ -55,7 +55,14 @@ window.siteContent = {
       "portraitAlt": "Cheng Tang 手持麦克风作学术报告的近景照片。",
       "viewConferencePhoto": "查看完整会议照片",
       "conferencePhotosTitle": "学术交流照片",
-      "conferencePhotosNote": "报告、会议与交流中的一些片段。"
+      "conferencePhotosNote": "报告、会议与交流中的一些片段。",
+      "visitorTitle": "访问地图",
+      "visitorNote": "记录来自世界各地的访问；点击地图查看详细统计。",
+      "visitorDetails": "查看详细统计 ↗",
+      "visitorMapAlt": "Cheng Tang 个人网站的全球访问地图与累计浏览次数。",
+      "visitorUnavailable": "地图暂时无法加载，仍可通过下方链接查看统计。",
+      "visitorPrivacy": "地图由 MapMyVisitors 提供，按 IP 估算访问地区，并处理访问相关信息。",
+      "visitorPrivacyLink": "隐私说明"
     },
     "en": {
       "skip": "Skip to content",
@@ -112,7 +119,14 @@ window.siteContent = {
       "portraitAlt": "Close-up of Cheng Tang giving a research presentation with a microphone.",
       "viewConferencePhoto": "View full conference photo",
       "conferencePhotosTitle": "Academic moments",
-      "conferencePhotosNote": "Moments from presentations, conferences, and academic exchanges."
+      "conferencePhotosNote": "Moments from presentations, conferences, and academic exchanges.",
+      "visitorTitle": "Visitor map",
+      "visitorNote": "Visits from around the world. Click the map to explore detailed statistics.",
+      "visitorDetails": "View detailed statistics ↗",
+      "visitorMapAlt": "Worldwide visitor map and total pageviews for Cheng Tang's personal website.",
+      "visitorUnavailable": "The map is temporarily unavailable. You can still view statistics using the link below.",
+      "visitorPrivacy": "Provided by MapMyVisitors, which estimates locations from IP addresses and processes visit information.",
+      "visitorPrivacyLink": "Privacy policy"
     }
   },
   "research": [

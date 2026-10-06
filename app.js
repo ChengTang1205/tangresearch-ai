@@ -81,6 +81,8 @@
     document.querySelector('meta[name="description"]').content = copy.description;
     document.querySelector('#navigation').setAttribute('aria-label', language === 'zh' ? '主导航' : 'Main navigation');
     document.querySelector('#heroPortrait').alt = copy.portraitAlt;
+    document.querySelector('#visitorMapImage').alt = copy.visitorMapAlt;
+    document.querySelector('#visitorMapLink').setAttribute('aria-label', copy.visitorDetails);
     document.querySelectorAll('[data-copy]').forEach(el => { el.textContent = copy[el.dataset.copy]; });
     document.querySelectorAll('[data-lang]').forEach(el => el.setAttribute('aria-pressed', String(el.dataset.lang === language)));
     document.querySelector('#researchCards').innerHTML = data.research.map((r,i) => `<article class="research-card"><span class="card-number">0${i+1}</span><h3>${escape(t(r.title))}</h3><p>${escape(t(r.text))}</p><span class="tagline">${escape(r.tag)}</span></article>`).join('');
@@ -101,6 +103,19 @@
     try { localStorage.setItem('cheng-language', language); } catch (_) {}
     render();
   }));
+  const visitorImage = document.querySelector('#visitorMapImage');
+  const visitorMapLink = document.querySelector('#visitorMapLink');
+  const visitorFallback = document.querySelector('#visitorMapFallback');
+  const showMapUnavailable = () => {
+    visitorMapLink.hidden = true;
+    visitorFallback.hidden = false;
+  };
+  visitorImage.addEventListener('error', showMapUnavailable);
+  visitorImage.addEventListener('load', () => {
+    visitorMapLink.hidden = false;
+    visitorFallback.hidden = true;
+  });
+  if (visitorImage.complete && visitorImage.naturalWidth === 0) showMapUnavailable();
   document.querySelector('#year').textContent = new Date().getFullYear();
   render();
 })();
